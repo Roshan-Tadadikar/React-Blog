@@ -1,0 +1,30 @@
+.card{
+    width: 45rem;
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+}
+/* 
+.card-body{
+    padding: 3rem 0!important;
+} */
+
+.card-text{
+    font-size: .9rem;
+}
+
+
+@media (max-width:580px) {
+    .mob-sizing{
+   width: 400px;
+    }
+    .icon1{
+        font-size: 12px;
+    }
+
+    .icon2{
+        float: inline-end!important;
+    }
+    
+}

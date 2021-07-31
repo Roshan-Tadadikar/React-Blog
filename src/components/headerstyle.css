@@ -1,0 +1,71 @@
+
+
+.bg-overlay {
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./images/computer-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 450px;
+  margin-top: 10px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.sidething{
+  margin-left: 35rem;
+}
+
+@media (max-width:780px) {
+  .sidething{
+    margin-left: 3rem;
+  }
+
+}
+
+@media (max-width:580px) {
+
+  .quote{
+    font-size: 10px;
+  }
+
+  .svg{
+    width: 0;
+  }
+
+  .title{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .input{
+   width: 200px;
+  }
+
+  .form-label{
+    font-size: 15px;
+  }
+.button{
+  width: 220px;
+  margin-left: 13px;
+}
+  .buttons{
+    width: 220px;
+    padding:5px;
+  }
+
+  .icon{
+ width: 220px;
+ margin-bottom: 10px;
+    
+  }
+  .icon:hover{
+    background-color: black;
+    color: white;
+  }
+
+  .remem{
+    margin-left: 40px;
+  }
+
+}
